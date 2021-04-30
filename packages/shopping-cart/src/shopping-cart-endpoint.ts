@@ -188,6 +188,7 @@ export interface ResponseCartProductExtra {
 	purchaseType?: string;
 	privacy?: boolean;
 	afterPurchaseUrl?: string;
+	isJetpackUserlessCheckout?: boolean;
 }
 
 export interface RequestCartProductExtra extends ResponseCartProductExtra {
