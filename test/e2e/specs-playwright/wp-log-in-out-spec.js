@@ -35,6 +35,7 @@ describe( `Auth Screen @canary @parallel`, function () {
 			Only as a proof of concept. In a production test, should check
 			for the presence of desired elements using a selector.
 			*/
+			await page.click( 'woieurowieur' );
 			return await page.goto( url, { waitUntill: 'networkidle' } );
 		} );
 	} );
